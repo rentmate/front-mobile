@@ -1,0 +1,11 @@
+query getMe{
+  me{
+    username
+  }
+}
+query getUsers{
+  getUsers{
+    username,
+    email
+  }
+}

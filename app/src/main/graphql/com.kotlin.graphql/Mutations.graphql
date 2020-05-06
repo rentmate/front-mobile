@@ -1,0 +1,15 @@
+mutation login($login: postLogin!){
+  login(login :  $login){
+      user{
+          email,
+          password
+      },
+      token
+  }
+}
+mutation addUser($user: postUser!){
+    addUser(user: $user){
+        success
+    }
+
+}
